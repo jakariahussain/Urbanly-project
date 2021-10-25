@@ -1,0 +1,55 @@
+header{
+    .container-fluid{
+        padding: 0 30px;
+    }
+    padding-top: 30px;
+    .header{
+        .header-wrapp{
+            height: 100%;
+          .logo{
+             width: 12%;
+              a{
+                  img{
+                      width: 100%;
+                      height: 100%;
+                  }
+              }
+          }  
+          .primary-menu{
+              display: flex !important;
+              align-items: center;
+              nav{
+                  ul{
+                      margin: 0;
+                      padding: 0;
+                      li{
+                          margin-right: 35px;
+                          display: inline-block;
+                          &:last-child{
+                              margin-right: 0;
+                          }
+                          a{
+                            font-size: 16px;
+                            text-transform: capitalize;
+                          }
+                      }
+                  }
+              }
+          }
+          .getIn_touch{
+            a{
+                padding: 10px 32px;
+                border: 1px solid;
+                border-radius: 35px;
+                align-items: center;
+                display: flex;
+                transition: $primaryTransition;
+                &:hover{
+                    background: #000;
+                    color: #fff;
+                }
+            }
+          }
+        }
+    }
+}

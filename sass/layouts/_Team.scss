@@ -1,0 +1,139 @@
+.breadcurb-area{
+    padding: 60px 0;
+    .Urbanly-text {
+        position: relative;
+        z-index: 0;
+        &::before {
+            position: absolute;
+            content: 'Urbanly';
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 190px;
+            text-transform: uppercase;
+            z-index: -1;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 0.02);
+        }
+    }
+    .breadcurb-content {
+        width: 595px;
+        margin: 0 auto;
+        text-align: center;
+        h2{
+            font-size: 60px;
+            color: #151515;
+            padding-bottom: 10px;
+        }
+        p{
+            font-size: 16px;
+            color: #7D7D7D;
+        }
+    }
+}
+
+.our-team{
+    padding-bottom: 40px;
+    .team-profile-wrapp{
+        position: relative;
+        transition: $primaryTransition;
+        margin-bottom: 20px;
+        .team-profile {
+            width: 100%;
+            height: 320px;
+            @include bgProperty(cover,center, no-repeat);
+        }
+        .profile-names{
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            bottom: -5%;
+            background: rgba(255, 255, 255, 0.77);
+            transition: $primaryTransition;
+            transform-origin: center;
+            opacity: 0;
+            h6{
+                font-size: 24px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        &:hover{
+            .profile-names{
+                opacity: 1;
+                bottom: 0;
+            }
+        }
+    }
+    
+}
+
+.team-mission{
+    .team-mission-wrapp{
+        width: 800px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        .team-slider {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }   
+    }
+}
+.owl-nav {
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.owl-prev, .owl-next {
+    width: 90px;
+    height: 90px;
+    background: #fff !important;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -50px;
+    top: 27%;
+}
+.owl-next{
+    right: -8% !important;
+}
+
+.job-tag{
+    padding-top: 50px;
+    padding-bottom: $paddingBottm;
+    .job-tag-content{
+        background: #F3F3F3;
+        padding: 50px;
+        border-radius: 5px;
+        h2 {
+            font-size: 39px;
+            font-weight: 600;
+            width: 70%;
+            color: #151515;
+        }
+        a{
+            font-size: 18px !important;
+            font-weight: 600 !important;
+            letter-spacing: 0 !important;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}

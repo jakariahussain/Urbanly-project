@@ -1,0 +1,12 @@
+.clients-area{
+    padding-bottom: $paddingBottm;
+    .clients-logo{
+        height: 100%;
+        .single-brand-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 30px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.counting-area{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    .counting-content{
+        margin-right: 28px;
+        border-right: 1px solid #7D7D7D;
+        .single-counting-item{
+            h2{
+                font-size: 30px;
+                font-weight: 700;
+                span{
+                    color: $textColor;
+                }
+            }
+        }
+    }
+}

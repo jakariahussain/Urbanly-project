@@ -1,0 +1,228 @@
+@media (min-width:320px) and (max-width:991px){
+    html, body{
+        overflow-x: hidden;
+    }
+    header {
+        padding-top: 20px;
+    }
+    header .header .header-wrapp {
+        display: block !important;
+    }
+    .product-profile .product-thumb {
+        background-size: contain;
+    }
+    .product-profile .product-thumb {
+        height: 250px;
+    }
+    header .header .header-wrapp .logo {
+        width: 67%;
+    }
+    .our-project .nav-pills .nav-link {
+        margin-right: 10px;
+        padding: 5px 16px;
+        margin-bottom: 10px;
+    }
+    .getIn_touch{
+        display: none !important;
+    }
+    .accordion-body p {
+        padding-right: 0;
+    }
+    .mean-container a.meanmenu-reveal {
+        top: -48px;
+        color: #000;
+        right: 8px !important;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0px;
+    }
+    .mean-container .mean-bar {
+        padding: 0;
+    }
+    header .header .header-wrapp .primary-menu{
+        display: none !important;
+    }
+    .banner-area {
+        height: auto;
+        display: block !important;
+    }
+    .banner-area .banner-content {
+        width: 100%;
+    }
+    .banner-area .banner-content h2 {
+        font-size: 30px;
+     }
+    .services-wrapp {
+        display: block !important;
+    }
+    header .container-fluid {
+        padding: 0 15px;
+    }
+    .banner-area::after {
+        display: none;
+    }
+    .breadcurb-area .breadcurb-content {
+        width: 100%;
+    }
+    .breadcurb-area .breadcurb-content h2 {
+        font-size: 40px;
+    }
+    .section-heading p {
+        width: 100%;
+    }
+    .owl-nav {
+        display: none !important;
+    }
+    .team-mission .team-mission-wrapp {
+        width: 100%;
+    }
+    .job-tag .job-tag-content {
+        display: block !important;
+    }
+    .job-tag .job-tag-content h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .our-team .team-profile-wrapp .team-profile {
+        background-size: contain;
+    }
+    .counting-area .counting-content {
+        margin-right: 0;
+        border-right: 0;
+    }
+    .counting-area {
+        padding-bottom: 30px;
+    }
+    .services-area .single-services {
+        margin-bottom: 20px;
+    }
+    .counting-area .counting-content .single-counting-item h2 {
+        font-size: 20px;
+    }
+    .contact-us .contact-form .services-tag button {
+        padding: 10px 14px;
+        margin-bottom: 10px;
+    }
+    .address-area .address-call {
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+    .address-area .address-logo {
+        border-right: 0;
+        padding-bottom: 40px;
+    }
+    .address-area .address-call a {
+        font-size: 18px;
+    }
+    .privacy-content .copyrights {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .section-heading img {
+        width: 25%;
+    }
+    .our-portfolio .product-profile .product-thumb {
+        height: 300px;
+        background-size: cover;
+        background-position: unset;
+    }
+}
+@media (min-width:375px) and (max-width:576px){
+    .counting-area .counting-content .single-counting-item h2 {
+        font-size: 18px;
+    }
+    .services-wrapp {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .services-area .single-services {
+        width: 50%;
+    }
+    header .header .header-wrapp .logo {
+        width: 45%;
+    }
+    .mean-container a.meanmenu-reveal {
+        top: -42px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    header .header .header-wrapp .logo {
+        width: 35%;
+    }
+    .services-wrapp {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .services-area .single-services {
+        width: 50%;
+    }
+    .our-portfolio .product-profile .product-thumb {
+        background-size: contain;
+        background-position: center;
+    }
+
+    .contact-us .contact-form .services-tag button {
+        padding: 10px 13px;
+    }
+
+}
+
+
+
+@media (min-width:600px) and (max-width:768px) {
+    header .header .header-wrapp .logo {
+        width: 28%;
+    }
+}
+
+@media (min-width:650px) and (max-width:768px) {
+    header .header .header-wrapp .logo {
+        width: 25%;
+    }
+    .services-area .single-services {
+        width: 33%;
+        padding: 40px 24px;
+    }
+}
+
+
+@media (min-width:991px) and (max-width:1200px) {
+    header .header .header-wrapp .logo {
+        width: 20%;
+    }
+    .product-profile .product-thumb {
+        height: 280px;
+        background-size: contain;
+    }
+    .accordion-body p {
+        padding-right: 50px;
+    }
+    .our-portfolio .product-profile .product-thumb {
+        background-size: contain;
+    }
+    .our-project .nav-pills .nav-link {
+        margin-right: 10px;
+        padding: 5px 16px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:1400px) and (max-width:1920px){
+    header .header .header-wrapp .logo {
+        width: 14%;
+    }
+    .owl-nav {
+        top: 55px;
+    }
+}
+
+@media(min-width:1920px){
+    .owl-nav {
+        top: 51px !important;
+    }
+}
+
+
+
